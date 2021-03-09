@@ -238,7 +238,7 @@ footer {
 @media screen and (min-height: 1100px) {
     body {
         margin: 0;
-        font-size: max(30px);
+        font-size: max(40px);
     }
     .intro {
         font-size: 29px;
