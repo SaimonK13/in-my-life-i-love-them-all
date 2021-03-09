@@ -1,0 +1,262 @@
+﻿main {
+    line-height: 2em;
+}
+
+body {
+    margin: 0;
+    font-family: 'Guardian TextEgyp', serif;
+}
+
+header {
+    padding: 25px;
+    background-color: #16253D;
+    margin: 0;
+    overflow: hidden;
+    font-weight: bold;
+    box-shadow: 0 1.5px grey;
+}
+
+nav a {
+    padding: 35px 20px 0 0;
+    text-decoration: none;
+    display: block;
+    float: right;
+    color: gold;
+    font-size: 35px;
+}
+
+nav ul {
+    list-style: none;
+    margin: auto;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+    float: left;
+}
+
+section h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.intro {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.name a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.beatles_img {
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 100%;
+}
+
+figure figcaption {
+    font-size: smaller;
+    font-style: italic;
+    padding-bottom: 18px;
+}
+
+main {
+    padding: 0 5% 0 5%;
+}
+
+.bio-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.author {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: auto auto;
+}
+
+.saimon-bio {
+    padding: 20px;
+}
+
+.saimon-img {
+    width: 180px;
+    height: 180px;
+}
+
+.saimon-bio a {
+    display: inline;
+}
+
+.saimon-bio a img {
+    width: 60px;
+    height: 60px;
+}
+
+.comment-box-container {
+    border-top: 2px solid #ddd;
+    line-height: normal;
+}
+
+.comment-box-container h2 {
+    border-bottom: 2px solid #ddd;
+}
+
+.comment-writer-name {
+    width: 45%;
+    height: 60px;
+    border-width: medium;
+    border-color: rgb(173, 173, 173);
+    font-size: larger;
+    padding: 0.8rem;
+}
+
+.comment-author {
+    color: #0000EE;
+}
+
+.comment-input {
+    width: 80%;
+    height: 120px;
+    border-width: medium;
+    border-color: rgb(173, 173, 173);
+    line-height: 1.4;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: larger;
+}
+
+.submit-button {
+    background-color: #16253D;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.form {
+    width: 96%;
+}
+
+.comment-container {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #e2e2e2;
+    margin: auto;
+    width: 95%;
+    min-height: 200px;
+}
+
+.all-comments {
+    display: flex;
+    border-top: 2px solid #e2e2e2;
+    font-size: max(2vh, 2vw);
+}
+
+.comment-avatar {
+    padding: 25px 20px 0 0;
+    width: 65px;
+    height: 65px;
+}
+
+footer {
+    padding: 1.8em;
+    background-color: #16253D;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+
+@media screen and (min-width: 1100px) {
+    main {
+        padding: 0 22% 0 22%;
+    }
+    body {
+        font-size: 18px;
+    }
+    nav a {
+        padding: 32px 20px 0 0;
+        font-size: 18px;
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+    header {
+        padding: 10px;
+    }
+    .intro {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .saimon-img {
+        width: 90px;
+        height: 90px;
+    }
+    .saimon-bio a img {
+        width: 25px;
+        height: 25px;
+    }
+    .saimon-bio {
+        font-size: 17px;
+    }
+    .submit-button {
+        font-size: medium;
+    }
+    .comment-writer-name {
+        font-size: inherit;
+    }
+    .comment-input {
+        font-size: inherit;
+    }
+    .all-comments {
+        font-size: medium;
+    }
+    .comment-avatar {
+        padding-top: 5px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-height: 1100px) {
+    body {
+        margin: 0;
+        font-size: max(30px);
+    }
+    .intro {
+        font-size: 29px;
+    }
+    .name {
+        font-size: 17px;
+    }
+    .saimon-bio {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .comments {
+        font-size: min(2vh, 20px);
+    }
+    .comment-writer-name {
+        font-size: inherit;
+    }
+    .comment-input {
+        font-size: inherit;
+    }
+}
