@@ -112,10 +112,10 @@ main {
 
 .comment-writer-name {
     width: 45%;
-    height: 20px;
+    height: 1em;
     border-width: medium;
     border-color: rgb(173, 173, 173);
-    font-size: large;
+    font-size: larger;
     padding: 0.8rem;
 }
 
