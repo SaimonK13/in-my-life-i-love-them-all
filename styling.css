@@ -112,10 +112,10 @@ main {
 
 .comment-writer-name {
     width: 45%;
-    height: 1em;
+    height: 2em;
     border-width: medium;
     border-color: rgb(173, 173, 173);
-    font-size: larger;
+    font-size: large;
     padding: 0.8rem;
 }
 
@@ -240,11 +240,11 @@ footer {
         font-size: 7.5vw;
     }
     .name {
-        font-size: 17px;
+        font-size: 2rem;
     }
     .saimon-bio {
-        font-size: 25px;
-        line-height: 50px;
+        font-size: xx-large;
+        line-height: 2em;
     }
     .comments {
         font-size: min(2vh, 20px);
