@@ -1,14 +1,15 @@
 main {
-    line-height: 2em;
+    line-height: 2.3em;
 }
 
 body {
     margin: 0;
     font-family: 'Guardian TextEgyp', serif;
+    font-size: 2.5rem;
 }
 
 header {
-    padding: 25px;
+    padding: 1.563rem;
     background-color: #16253D;
     margin: 0;
     overflow: hidden;
@@ -22,7 +23,7 @@ nav a {
     display: block;
     float: right;
     color: gold;
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 
 nav ul {
@@ -35,18 +36,17 @@ nav a:hover {
 }
 
 .logo {
-    height: 110px;
-    width: 110px;
+    height: 6.875rem;
+    width: 6.875rem;
     float: left;
 }
 
 section h1 {
-    font-size: 40px;
+    font-size: 5rem;
     text-align: center;
 }
 
 .intro {
-    font-size: smaller;
     font-weight: bold;
 }
 
@@ -85,11 +85,13 @@ main {
 
 .saimon-bio {
     padding: 20px;
+    font-size: 2.2rem;
+    line-height: 2em;
 }
 
 .saimon-img {
-    width: 180px;
-    height: 180px;
+    width: 11.25rem;
+    height: 11.25rem;
 }
 
 .saimon-bio a {
@@ -97,8 +99,8 @@ main {
 }
 
 .saimon-bio a img {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
 }
 
 .comment-box-container {
@@ -112,11 +114,9 @@ main {
 
 .comment-writer-name {
     width: 45%;
-    height: 2em;
     border-width: medium;
     border-color: rgb(173, 173, 173);
-    font-size: large;
-    padding: 0.8rem;
+    font-size: inherit;
 }
 
 .comment-author {
@@ -131,7 +131,7 @@ main {
     line-height: 1.4;
     padding: 0.8rem;
     width: 100%;
-    font-size: larger;
+    font-size: inherit;
 }
 
 .submit-button {
@@ -140,7 +140,7 @@ main {
     padding: 0.5em;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 1.9rem;
 }
 
 .form {
@@ -159,13 +159,13 @@ main {
 .all-comments {
     display: flex;
     border-top: 2px solid #e2e2e2;
-    font-size: max(2vh, 2vw);
+    font-size: 2.8rem;
 }
 
 .comment-avatar {
     padding: 25px 20px 0 0;
-    width: 65px;
-    height: 65px;
+    width: 7.813rem;
+    height: 7.813rem;
 }
 
 footer {
@@ -174,7 +174,7 @@ footer {
     color: white;
     margin: 0;
     text-align: center;
-    font-size: large;
+    font-size: 1.8rem;
 }
 
 @media screen and (min-width: 1100px) {
@@ -186,31 +186,34 @@ footer {
     }
     nav a {
         padding: 32px 20px 0 0;
-        font-size: 18px;
+        font-size: 1.375rem;
+    }
+    section h1 {
+        font-size: 2.8rem;
     }
     .logo {
-        height: 80px;
-        width: 80px;
+        height: 5rem;
+        width: 5rem;
     }
     header {
-        padding: 10px;
+        padding: 0.6em;
     }
     .intro {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .name {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .saimon-img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
     .saimon-bio a img {
-        width: 25px;
-        height: 25px;
+        width: 1.563rem;
+        height: 1.563rem;
     }
     .saimon-bio {
-        font-size: 17px;
+        font-size: 1.063rem;
     }
     .submit-button {
         font-size: medium;
@@ -222,37 +225,12 @@ footer {
         font-size: medium;
     }
     .comment-avatar {
-        padding-top: 5px;
-        width: 60px;
-        height: 60px;
+        padding-top: 0.313rem;
+        width: 3.75rem;
+        height: 3.75rem;
     }
-}
-
-@media screen and (min-height: 1100px) {
-    body {
-        margin: 0;
-        font-size: max(4vw, 40px);
-    }
-    .intro {
-        font-size: 4vw;
-    }
-    main article section h1 {
-        font-size: 7.5vw;
-    }
-    .name {
-        font-size: 2rem;
-    }
-    .saimon-bio {
-        font-size: xx-large;
-        line-height: 2em;
-    }
-    .comments {
-        font-size: min(2vh, 20px);
-    }
-    .comment-writer-name {
-        font-size: inherit;
-    }
-    .comment-input {
-        font-size: inherit;
+    footer {
+        padding: 1.5em;
+        font-size: 1.25rem;
     }
 }
