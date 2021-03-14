@@ -168,6 +168,10 @@ main {
     height: 7.813rem;
 }
 
+textarea {
+    resize: none;
+}
+
 footer {
     padding: 1.8em;
     background-color: #16253D;
