@@ -41,7 +41,7 @@ function template(data) {
   </div>`);
 }
 
-submit.addEventListener('click', appendComment, false)
+submit.addEventListener('click', appendComment)
 
 // Variable to check saved list
 const saved = localStorage.getItem('commentListing');
