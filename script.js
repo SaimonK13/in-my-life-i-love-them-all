@@ -5,13 +5,13 @@ const name = document.querySelector('.comment-writer-name');
 
 // Function to store and append comment with template function
 function appendComment(event) {
-
     const data = {
         avatar: "user_img.png",
         comment: commentInput.value,
         author: name.value
     };
 
+    // Stop the webpage from reloading after hitting submit
     event.preventDefault();
 
     // If the value is nothing just return
@@ -30,7 +30,7 @@ function appendComment(event) {
 
 // Function to inject html with the comment data
 function template(data) {
-    commentList.insertAdjacentHTML("beforeend", `
+    commentList.insertAdjacentHTML("beforebegin", `
   <div class="all-comments">
       <img class="comment-avatar" src="${data.avatar}" />
       <div>
@@ -43,7 +43,7 @@ function template(data) {
 
 submit.addEventListener('click', appendComment)
 
-// Variable to check saved list
+// Variable to check list of comments
 const saved = localStorage.getItem('commentListing');
 
 // Update list if any saved item is found
